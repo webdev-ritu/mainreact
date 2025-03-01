@@ -1,6 +1,6 @@
 import {useEffect}from "react";
 import { useDispatch, useSelector } from "react-redux";
-import {fetchBooks} from "../redux/actions/authActions"
+import {fetchBooks} from "../redux/actions/booksActions";
 import BookCard  from "../components/BookCard";
 
 const Home = () => {

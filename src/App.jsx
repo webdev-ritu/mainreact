@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Route, Routes ,navigate} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { useSelector ,  Provider } from 'react-redux';
 import store from "./redux/store";
 import Home from "./pages/Home";
